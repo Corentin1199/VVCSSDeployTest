@@ -1,9 +1,9 @@
 {
-  "communicationServicesConnectionString": "endpoint=your_endpoint;accesskey=secret",
+  "communicationServicesConnectionString": "endpoint=https://vvcssdemodeploy.switzerland.communication.azure.com/;accesskey=6ILUe1xOabWlPwO9AtgOTxO8JnqJ9xW6nk897U4YWBOBzPHifWHOJQQJ99ALACULyCpI5jN6AAAAAZCSuxky",
   "microsoftBookingsUrl": "https://microsoftbookings.azurewebsites.net/?organization=financialservices&UICulture=en-US",
   "chatEnabled": true,
   "screenShareEnabled": true,
-  "companyName": "Lamna Healthcare",
+  "companyName": "CSS",
   "colorPalette": "#0078d4",
   "waitingTitle": "Thank you for choosing Lamna Healthcare",
   "waitingSubtitle": "Your clinician is joining the meeting",
@@ -20,7 +20,7 @@
     }
   },
   "cosmosDb": {
-    "connectionString": "Connection string of your Cosmos DB account",
-    "dbName": "Name of the Cosmos Database"
+    "connectionString": "AccountEndpoint=https://db-account-6ywnkve6ayaqg.documents.azure.com:443/;AccountKey=tfqXP6hm5UU7MjiC7Z1mjJNUZbcTELKwTbGf50KlSJiN99Hc3W6KFdezJ8I39TL3nmtDwy3iFytWACDbqkWxEQ==;",
+    "dbName": "cosmos-db-6ywnkve6ayaqg"
   }
 }
