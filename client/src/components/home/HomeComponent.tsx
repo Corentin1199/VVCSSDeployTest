@@ -35,7 +35,7 @@ const HomeComponent = (props: HomeComponentProps): JSX.Element => {
             <Image imageFit={ImageFit.contain} src={imageCalendar} alt="calendarImage"></Image>
           </Stack>
           <Stack styles={containerMarginTop2rem}>
-            <Text styles={lineHeight28px}>Hello,</Text>
+            <Text styles={lineHeight28px}>Hello!!!,</Text>
             <Text styles={lineHeight22px}>What would you like to do?</Text>
             <HomeButtons theme={theme} setError={props.onDisplayError} />
             <FrequentlyAskedQuestions />
